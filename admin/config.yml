@@ -97,6 +97,58 @@ collections:
     editor: *ref_0
     folder: cms/pages/projects
     fields: *ref_1
+  - name: payment_links
+    label: Payment Links
+    folder: cms/payment-links
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: f_link
+        label: Link
+        widget: string
+        required: false
+      - hint: Eg. Momo, Card, Bank
+        name: f_payment-channel
+        label: Payment Channel
+        widget: string
+        required: false
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: payment-links
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[payment-links].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_2
+    editor:
+      preview: false
   - name: legal_documents
     label: Legal Documents
     folder: cms/legal-documents
@@ -1878,6 +1930,50 @@ collections:
             label: Text
             name: '-f5c4b5f'
             widget: string
+          - hint: 'Original text: Page Not Found, key: -40b0787c'
+            label: Text
+            name: '-40b0787c'
+            widget: string
+          - hint: >-
+              Original text: The page you are looking for doesn't exist or has
+              been moved, key: 556d64d8
+            label: Text
+            name: 556d64d8
+            widget: string
+          - hint: 'Original text: Go To Homepage, key: 3be430db'
+            label: Text
+            name: 3be430db
+            widget: string
+          - hint: >-
+              Original text: our terms and conditions, privacy policy and other
+              legal documents, key: -21d9d7bc
+            label: Text
+            name: '-21d9d7bc'
+            widget: string
+          - hint: 'Original text: View Document, key: 54043436'
+            label: Text
+            name: '54043436'
+            widget: string
+          - hint: 'Original text: our Projects , key: 8223af2'
+            label: Text
+            name: 8223af2
+            widget: string
+          - hint: >-
+              Original text: Showcasing Our Innovative Mobile and Web Apps.
+              Experience the Future of Technology!, key: -5eba01c6
+            label: Text
+            name: '-5eba01c6'
+            widget: string
+          - hint: >-
+              Original text: Let Us Empower your Business with Innovative Mobile
+              and Web Solutions!, key: -5c31c9ca
+            label: Text
+            name: '-5c31c9ca'
+            widget: string
+          - hint: 'Original text: Send Us A Whatsapp message, key: 6a0bb3c2'
+            label: Text
+            name: 6a0bb3c2
+            widget: string
           - hint: >-
               Original text: Secure, Safe, reliable and fast online payments,
               key: 2c3430e9
@@ -2275,16 +2371,6 @@ collections:
             name: 12ee86f
             widget: string
           - hint: >-
-              Original text: our terms and conditions, privacy policy and other
-              legal documents, key: -21d9d7bc
-            label: Text
-            name: '-21d9d7bc'
-            widget: string
-          - hint: 'Original text: View Document, key: 54043436'
-            label: Text
-            name: '54043436'
-            widget: string
-          - hint: >-
               Original text: blogs about new product features, the latest in
               technology and updates., key: -7c04a334
             label: Text
@@ -2303,40 +2389,6 @@ collections:
           - hint: 'Original text: Read post, key: 319adcca'
             label: Text
             name: 319adcca
-            widget: string
-          - hint: 'Original text: Page Not Found, key: -40b0787c'
-            label: Text
-            name: '-40b0787c'
-            widget: string
-          - hint: >-
-              Original text: The page you are looking for doesn't exist or has
-              been moved, key: 556d64d8
-            label: Text
-            name: 556d64d8
-            widget: string
-          - hint: 'Original text: Go To Homepage, key: 3be430db'
-            label: Text
-            name: 3be430db
-            widget: string
-          - hint: 'Original text: our Projects , key: 8223af2'
-            label: Text
-            name: 8223af2
-            widget: string
-          - hint: >-
-              Original text: Showcasing Our Innovative Mobile and Web Apps.
-              Experience the Future of Technology!, key: -5eba01c6
-            label: Text
-            name: '-5eba01c6'
-            widget: string
-          - hint: >-
-              Original text: Let Us Empower your Business with Innovative Mobile
-              and Web Solutions!, key: -5c31c9ca
-            label: Text
-            name: '-5c31c9ca'
-            widget: string
-          - hint: 'Original text: Send Us A Whatsapp message, key: 6a0bb3c2'
-            label: Text
-            name: 6a0bb3c2
             widget: string
           - hint: >-
               Original text: Kindly Contact us. we would love to hear from you.,
@@ -3833,12 +3885,6 @@ collections:
           - hint: 'Original link: https://ymlktechnologies.com, key: -7ffb68e1'
             label: Link
             name: '-7ffb68e1'
-            widget: string
-          - hint: >-
-              Original link: https://paystack.com/pay/ymlktechnologies, key:
-              57839a71
-            label: Link
-            name: 57839a71
             widget: string
           - hint: 'Original link: /projects/taiga-restaurant/, key: 408747d5'
             label: Link
