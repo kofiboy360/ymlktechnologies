@@ -1,9 +1,9 @@
 ---
-title: "Car Rental GH "
+title: Car Rental Ghana
 created-on: 2024-03-31T18:01:02.484Z
 updated-on: 2024-03-31T18:01:02.549Z
 published-on: 2024-03-31T18:01:02.611Z
-f_app-name: "Car Rental GH "
+f_app-name: Car Rental Ghana
 f_main-image:
   url: /assets/images/car-rental-website.png
 f_app-gallery-more-images:
@@ -31,7 +31,7 @@ seo:
   twitter:image: /assets/images/car-rental-website.png
   og:title: Car Rental GH | YMLK Technologies
   twitter:card: Car Rental GH | YMLK Technologies
-  title: Car Rental GH | YMLK Technologies
+  title: Car Rental Ghana| YMLK Technologies
   og:image: /assets/images/car-rental-website.png
   description: Users can book and pay for cars using Mobile money,
     Visa/MasterCard, Apple Pay and Verve cards, right from the website. Users
