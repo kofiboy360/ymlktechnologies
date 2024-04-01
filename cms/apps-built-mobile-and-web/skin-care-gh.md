@@ -26,8 +26,14 @@ layout: "[apps-built-mobile-and-web].html"
 date: 2024-03-30T21:21:50.965Z
 seo:
   noindex: false
-  twitter:title: summary
-  twitter:card: summary
+  twitter:title: Skin Care GH | YMLK Technologies
+  twitter:card: Skin Care GH | YMLK Technologies
+  description: This is a website developed for SKIN CARE GH to sell their products
+    online and receive payments online.
+  title: Skin Care GH | YMLK Technologies
+  og:title: Skin Care GH | YMLK Technologies
+  og:image: /assets/images/skin-care-gh-ymlk-technologies-accra-ghana.png
+  twitter:image: /assets/images/skin-care-gh-ymlk-technologies-accra-ghana.png
 ---
 T﻿his is a website developed for SKIN CARE GH to sell their products online and receive payments online.\
 Users can shop and pay for products using Mobile money, Visa/MasterCard, Apple Pay and Verve cards, right from the website.
