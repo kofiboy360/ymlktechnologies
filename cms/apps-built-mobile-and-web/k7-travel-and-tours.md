@@ -19,10 +19,8 @@ f_app-gallery-more-images:
   - url: /assets/images/accra-day-trip-2-.png
   - url: /assets/images/contact-us-k7-travel-and-tours.png
   - url: /assets/images/k7-travel-and-tours-7-.png
-f_short-description: A﻿ website for K7 Travel and Tours. A Travel and tours
-  company, whose main aim is to help reconnect our people in the diaspora. They
-  also teach our rich culture to the African youth eager to learn, on their
-  tours, while giving the most enjoyable and memorable experience ever.
+f_short-description: "A﻿ website for K7 Travel and Tours. A Travel and tours
+  company, whose main aim is to help reconnect our people in the diaspora. "
 f_blog-header-image:
   url: /assets/images/k7-travel-and-tours.png
 f_published-page-link: https://k7travelandtours.com
